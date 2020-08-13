@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(229, 57%, 11%);
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.background__spacer {
+  height: 50vh;
+}
+
+.background__img {
+  height: 50vh;
+}
+
+.boxes {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.fylo {
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px 80px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+.fylo__icon-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.fylo__icon {
+  align-content: center;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 10px;
+  margin: 8px;
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+.fylo__logo {
+  width: 135px;
+  height: 40px;
+}
+
+.fylo__document {
+  width: 20px;
+  height: 24px;
+}
+
+.fylo__folder {
+  width: 24px;
+  height: 20px;
+}
+
+.fylo__cloud {
+  width: 24px;
+  height: 16px;
+}
+
+.progress {
+  height: 120px;
+  margin-top: 26px; /* height + margin-top = height of .fylo */
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px;
+  padding: 30px;
+  font-size: 0.7rem;
+  color: #b2b3b9;
+}
+
+/* progress__space-used */
+.space-used {
+}
+
+strong {
+  font-weight: bold;
+  color: white;
+}
+
+.space-remaining {
+}
+
+.progress-bar > progress {
+  width: 300px;
+}
+
+.progress-bar-labels {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
